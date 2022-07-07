@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MessageGroup">
 
+
     <Button
         android:id="@+id/Group1"
         android:layout_width="0dp"
@@ -14,6 +15,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="19dp"
         android:layout_marginBottom="26dp"
+        android:onClick="grp1"
         android:text="Group 1"
         app:layout_constraintBottom_toTopOf="@+id/Group2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,20 +29,17 @@
         android:layout_marginStart="14dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="505dp"
+        android:onClick="grp2"
         android:text="Group 2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Group1" />
 
-    <fragment
-        android:id="@+id/MessageGroupFragment"
-        android:name="com.example.prac2.MessageGroupFragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"></fragment>
+    <FrameLayout
+        android:id="@+id/your_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,7 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MessageGroupFragment">
+    tools:context=".MessageGroupFragment"
+    android:name="com.example.android.messagegroupfragment"
+    android:id="@+id/messagegroupfragment">
 
     <ImageView
         android:id="@+id/imageView3"
